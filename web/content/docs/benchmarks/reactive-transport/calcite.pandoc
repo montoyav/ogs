@@ -16,13 +16,13 @@ title = "Precipitation/dissolution equilibrium reactions in a saturated column"
 
 ## Overview
 
-This benchmark was originally described in Kolditz *et al.* (2012) as a reactive transport benchmark including precipitation and dissolution reactions along a saturated column of calcite which is fluxed with a diluted solution of MgCl$_2$. Three different codes (OGS-5#ChemApp, OGS-5#IPhreeqc and OGS-5#GEMS) were used in that exercise.
+This benchmark was firstly described in Kolditz *et al.* (2012) as a reactive transport benchmark including precipitation and dissolution reactions along a saturated column of calcite which is fluxed with a diluted solution of MgCl$_2$. Three different codes (OGS-5#ChemApp, OGS-5#IPhreeqc and OGS-5#GEMS) were used in that exercise.
 
 Kolditz *et al.* (2012) considered that all reactions occurred at thermodynamic equilibrium. Later on, in He *et al.* (2015) and Jang *et al.* (2018), the incorporation of kinetic rates for reaction precipitations in OGS-5#IPhreeqc was investigated and compared with the modelling results obtained with OGS-5#ChemApp and Phreeqc.
 
 Very briefly, the studied system consists on a column of 0.5 m, initially containing crushed calcite (CaCO$_3$(s)), which is continuously fluxed with a 1 millimolar (mmol/L) magnesium chloride (MgCl$_2$) solution at pH = 7 and 25°C during 350 min (~ 5.8h) at a constant flow rate of 0.18 L (or a Darcy velocity (q) of $3\times10^{-6}$ m/s, considering a cross-sectional area of 1 m$^2$).
 
-Previously, the column had been packed giving a mean bulk density and porosity of 1.80 Kg/L and 0.32, respectively. Additionally, the column was saturated and equilibrated by injecting pure water giving a saturated solution with respect calcite and pH = 9.9.
+Previously, the column had been packed giving a mean bulk density and porosity of 1.80 kg/L and 0.32, respectively. Additionally, the column was saturated and equilibrated by injecting pure water giving a saturated solution with respect calcite and pH = 9.9.
 
 ## Numerical approach
 
@@ -59,17 +59,17 @@ A one-dimensional (1D) model domain of 0.5 m discretized into 100 uniform elemen
 
 Thermodynamic data for hydrolysis, aqueous speciation, and dissolution/precipitation reactions between Mg, Ca, Cl, and carbonate were selected from version 12/07 of the PSI/NAGRA chemical thermodynamic database (Thoenen *et al.* 2014). Although several other minerals containing Mg and Ca were available in the PSI/NAGRA database (i.e. magnesite), only two solids were allowed to precipitate or dissolve in the studied system (calcite and dolomite (CaMg(CO$_3$)$_2$)).
 
-### Model results
+## Model results
 
 A comparison of the results obtained with OGS-6#IPhreeqc and OGS-5#IPhreeqc at the end of the simulation is shown in the Figures below.
 
-At the simulated time, it can be clearly seen that the MgCl$_2$ solution front has penetrated ~0.3m of the column resulting in the dissolution of calcite and dolomite precipitation. Total aqueous concentration and solid profiles obtained of OGS-6 are in good agreement with those of OGS-5. The absolute error in terms of component concentrations is $2.15\times10^{-5}$ (Cl), $1.13\times10^{-5}$ (Mg), and $4.57\times10^{-6}$ (Ca).
+At the simulated time, it can be clearly seen that the MgCl$_2$ solution front has penetrated ~0.3m of the column resulting in the dissolution of calcite and dolomite precipitation. Total aqueous concentration and solid profiles obtained of OGS-6 are in good agreement with those of OGS-5. The absolute error in terms of component concentrations is $2.15\times10^{-5}$ (Cl), $1.13\times10^{-5}$ (Mg), and $4.57\times10^{-6}$ (Ca). Additionally, pH profiles calculated with both codes are in good agreement.
 
-{{< img src="../calcite-Figures/ResultComparison.png" title="Total aqueous concentration and solid profiles obtained with OGS-6#IPhreeqc (empty triangle symbol) and OGS-5#IPhreeqc (empty circle symbol) at 350 min.">}}
+{{< img src="../calcite-Figures/ResultComparison.png" title="Total aqueous concentration and solid profiles obtained with OGS-6#IPhreeqc (empty triangle symbol) and OGS-5#IPhreeqc (empty circle symbol) at 350 min. (C(4) = total carbonate)">}}
 
-{{< img src="../calcite-Figures/ResultComparisonPH.png" title="PH value profiles obtained with OGS-6#IPhreeqc (empty triangle symbol) and OGS-5#IPhreeqc (empty circle symbol) at 350 min.">}}
+{{< img src="../calcite-Figures/ResultComparisonPH.png" title="pH value profiles obtained with OGS-6#IPhreeqc (empty triangle symbol) and OGS-5#IPhreeqc (empty circle symbol) at 350 min.">}}
 
-Additionally, pH variation and obtained aqueous speciation for the four components (Ca, Mg, carbonate, and chloride) with both codes are in good agreement.
+
 
 {{< data-link >}}
 
