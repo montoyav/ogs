@@ -1,9 +1,9 @@
 +++
-author = "Johannes Boog"
+author = "Johannes Boog, Reviewer: Vanessa Montoya"
 weight = 143
 project = "Parabolic/ComponentTransport/ConTracer/ConTracer_1d.prj"
 date = "2019-07-18T10:30:09+01:00"
-title = "1d/2d Conservative Solute Transport in Saturated Media"
+title = "Conservative tracer transport with time varying source (1D/2D)"
 
 [menu]
   [menu.benchmarks]
@@ -13,34 +13,36 @@ title = "1d/2d Conservative Solute Transport in Saturated Media"
 
 {{< data-link >}}
 
-# 1d/2d Conservative Solute Transport in Saturated Media
+# "Conservative tracer transport with time varying source(1D/2D)"
 
 ## Overview
-These two scenarios describe the transport of a conservative tracer through a saturated 1d and a 2d domain.
-Both are based on a hydraulic tracer experiment conducted in a pilot--scale horizontal flow constructed wetland (Boog 2013) that was simulated with OGS-6 and OGS-5.
-The experimental system was of a box--shaped geometry and measured 4.7 m in length, 1.2 m in width and 1.05 m in depth.
-It was filled with gravel at an average porosity of 0.38, the initial water level was at 1.0 meter, the outflow was realized by an overflow pipe of 1.0 m in height.
+This benchmark describes the transport of a conservative tracer through a saturated porous media. Simulations have been performed with OGS-6 and OGS-5 in both, 1D and 2D domains.
+Additionally, simulations have been compared with experimental data obtained from a hydraulic tracer experiment conducted in a pilot--scale horizontal flow constructed wetland (Boog, 2013, Bog *et al.*, 2019) 
+
+The experimental system consist of a box--shaped of 4.7 m in length, 1.2 m in width and 1.05 m in depth (Nivala *et al.* 2013)
+The box is filled with gravel giving an average porosity of 0.38. The initial water level was at 1.0 meter and the outflow was realized by drip irrigation pipe of 1.0 m height.
 Hydraulic water influx was 0.768 meter^3^ d^-1^ at the left side.
-The tracer (40.26 g of Br^-^) was added as a single impulse event at $t=0$.
-Only 89\% of the tracer mass were recovered at the outlet.
+The tracer (40.26 g of Br^-^) diluted in 12 L of waste water was added as a single impulse event at $t=0$.
+Note, that only 89\% of the tracer were recovered at the outlet.
 
-![Domains for the 1d/2d simulation models](../ConTracer_domain.png)
+![Top: Schematic representation of the experiment. Middle and bottom: Simulated domain and input parameters in 1D and 2D, respectively](../ConTracer_domain.png)
 
-## Problem description for 1d scenario
+## Problem description (1D)
 
-For the 1d simulation the model domain was discretized into 94 line elements, with an element size of 0.05 m.
+For the 1D simulation the model domain was discretized into 94 line elements (element size of 0.05 m).
 A regular time stepping scheme with a step size of 3600 s was used.
-The tracer impulse was treated as a time dependent Dirichlet BC ($\Gamma_{D, left} (t)= c_{tracer}(t)$), which results in an added tracer mass combined with the water volume influx.
-Material properties as well as initial and boundary conditions are listed in the table below.
-Due to the high evaporation during the tracer experiment, the the average of measured influent and effluent water volume fluxes was used as boundary condition for the simulations ($g_{N,left}^p$).
+The tracer impulse was treated as a time dependent Dirichlet BC ($\Gamma_{D, left} (t)= c_{tracer}(t)$), which results in an added tracer (mass) combined with the water volume influx.
+Material properties as well as initial and boundary conditions are listed in the following tables.
+Due to the high evaporation during the experiment, the average measured influent and effluent water volume fluxes was used as boundary condition for the simulations ($g_{N,left}^p$).
 The boundary condition of the tracer ($g_{D,left}^{c_{tracer}}$) at the inlet was multiplied with the mass recovery rate of 89% of the tracer.
 
+---------------------- ---------- ----------- ------------
 
 |Parameter | Description | Value | Unit  |
 |:-------  | :-------- |-----:|:------:|
 |$\phi$     | Porosity   | 0.38  |  |
 |$\kappa$   | Permeability | 1.00E-08 | m^2^ |
-|$S$       | Storage     | 0     |  |
+|$S$       | Saturation     | 1     |  |
 |$a_L$     | long. Dispersion length | 0.7   | m |
 |$a_T$     | transv. Dispersion length | 0.07  | m |
 |$\rho_w$   | Fluid density | 1.00E+03 | kg m^-3^ |
@@ -48,8 +50,11 @@ The boundary condition of the tracer ($g_{D,left}^{c_{tracer}}$) at the inlet wa
 |$D_{tracer}$ | Tracer diffusion coef. | 0  | m^2^ s^-1^ |
 |$g$       | Gravity acceleration in $y$ direction | 9.81 | m s^-2^ |
 
-    Table: Material Properties
+---------------------- ---------- ----------- ------------
+	
+	Table: Material Properties
 
+---------------------- ---------- ----------- ------------
 
 | Parameter | Description | Value | Unit  |
 |:--------- |:----------  | -----:|------:|
@@ -63,14 +68,18 @@ The boundary condition of the tracer ($g_{D,left}^{c_{tracer}}$) at the inlet wa
 |$p(t=0)$   | Initial pressure | 9810  | Pa |
 |$c_{tracer}(t=0)$ | Initial tracer concentration | 0  | g L^-1^ |
 
-    Table: Initial and boundary conditions for the 1d scenario
+---------------------- ---------- ----------- ------------
+    
+	Table 1: Initial and boundary conditions for the 1D scenario
 
 
-## Problem Description for 2d scenario
+## Problem description (2D)
 
-For the 2d scenario the domain was discretized into a rectangular mesh with 1880 quadratic elements (element size of 0.05 m.
+For the 2D simulation, the domain was discretized into a rectangular mesh with 1880 quadratic elements (element size of 0.05 m).
 A regular time stepping scheme with a step size of 3600 s was used.
-Material properties, initial and boundary conditions are presented in the tables below.
+Material properties, initial and boundary conditions are presented in the table below.
+
+---------------------- ---------- ----------- ------------
 
 | Parameter | Description | Value | Unit  |
 |:--------- | :---------- | -----:| -----:|
@@ -84,15 +93,25 @@ Material properties, initial and boundary conditions are presented in the tables
 | $p(t=0)$  | Initial pressure | $9810-9810*y$ | Pa |
 | $c_{tracer}(t=0)$ | Initial tracer concentration | 0  | g L^-1^ |
 
-Table: Initial and boundary conditions for the 2d scenario
+---------------------- ---------- ----------- ------------
+
+Table 2: Initial and boundary conditions for the 2D scenario
 
 ## Results
 
-Both simulation models fit the experimental tracer breakthrough curves quite well.
+Both models (1D and 2D) fit the experimental tracer breakthrough curves quite well.
 The deviance at the peak and tail can be related to the fact that the simulations only consider conservative equilibrium transport.
-Processes that may have occurred in the experimental system such as tracer sorption, non--equilibrium flow and evapotranspiration were not considered.
-The difference between the OGS-6 and OGS-5 simulation was very low (RMSQE$=$1.37e-07).
+(Processes that may have occurred in the experimental system such as tracer sorption, non--equilibrium flow and evapotranspiration were not considered in the model)
+The differences between the OGS-6 and OGS-5 simulation were very low (RMSQE$=$1.37e-07).
 
-![Measured (tracer_exp) and simulated tracer breakthrough curves at the outlet (1d scenario)](../ConTracer1d_results.PNG)
+![Measured (tracer_exp) and simulated tracer breakthrough curves at the outlet (1D scenario)](../ConTracer1d_results.PNG)
 
-![Measured (tracer_exp} and simulated tracer breakthrough curves at the outlet (2d scenario)](../ConTracer2d_results.PNG)
+![Measured (tracer_exp} and simulated tracer breakthrough curves at the outlet (2D scenario)](../ConTracer2d_results.PNG)
+
+## References
+
+Boog, 2013. Effect of the Aeration Scheme on the Treatment Performance of Intensified Treatment Wetland Systems(Diploma Thesis) TU Bergakademie Freiberg; Institut für Thermische-, Umwelt- und Naturstoffverfahrenstechnik, Freiberg, Germany
+
+Boog, J., Kalbacher, T., Nivala, J., Forquet, N., van Afferden, M., Müller, R.A., 2019 Modeling the relationship of aeration, oxygen transfer and treatment performance in aerated horizontal flow treatment wetlands. Water Res. 157 , 321 - 334
+
+Nivala, J., Headley, T., Wallace, S., Bernhard, K., Brix, H., van Afferden, M., Müller, R.A, 2013 Comparative analysis of constructed wetlands: the design and construction of the ecotechnology research facility in Langenreichenbach, Germany Ecol. Eng., 61, 527-543
