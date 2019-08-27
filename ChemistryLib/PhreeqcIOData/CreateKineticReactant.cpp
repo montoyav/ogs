@@ -48,6 +48,10 @@ std::vector<KineticReactant> createKineticReactants(
             reactant_config.getConfigParameter<std::vector<double>>(
                 "parameters", {});
 
+        bool fix_amount =
+            //! \ogs_file_param{prj__chemical_system__kinetic_reactants__kinetic_reactant__fix_amount}
+            reactant_config.getConfigParameter<bool>("fix_amount", false);
+
         auto amount = MeshLib::getOrCreateMeshProperty<double>(
             const_cast<MeshLib::Mesh&>(mesh),
             name,
@@ -58,7 +62,8 @@ std::vector<KineticReactant> createKineticReactants(
         kinetic_reactants.emplace_back(std::move(name),
                                        std::move(chemical_formula),
                                        amount,
-                                       std::move(parameters));
+                                       std::move(parameters),
+                                       std::move(fix_amount));
     }
 
     return kinetic_reactants;
