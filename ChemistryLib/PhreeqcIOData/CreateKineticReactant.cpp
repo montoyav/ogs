@@ -59,6 +59,12 @@ std::vector<KineticReactant> createKineticReactants(
             1);
         std::fill(std::begin(*amount), std::end(*amount), initial_amount);
 
+        if (chemical_formula == "" && fix_amount)
+        {
+            OGS_FATAL(
+                "fix_amount can only be used if a chemical_formula has been defined");
+        }
+
         kinetic_reactants.emplace_back(std::move(name),
                                        std::move(chemical_formula),
                                        amount,
