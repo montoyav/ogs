@@ -40,9 +40,6 @@ std::unique_ptr<Output> createOutput(
                                             kinetic_reactant.item_type));
     }
 
-    //std::transform(kinetic_reactants.begin(), kinetic_reactants.end(),
-    //               std::back_inserter(accepted_items), accepted_item);
-
     // Record ids of which phreeqc output items will be dropped.
     BasicOutputSetups basic_output_setups(project_file_name);
     auto const num_dropped_basic_items =

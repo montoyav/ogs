@@ -48,7 +48,7 @@ std::vector<KineticReactant> createKineticReactants(
             reactant_config.getConfigParameter<std::vector<double>>(
                 "parameters", {});
 
-        bool fix_amount =
+        bool const fix_amount =
             //! \ogs_file_param{prj__chemical_system__kinetic_reactants__kinetic_reactant__fix_amount}
             reactant_config.getConfigParameter<bool>("fix_amount", false);
 
@@ -63,7 +63,7 @@ std::vector<KineticReactant> createKineticReactants(
                                        std::move(chemical_formula),
                                        amount,
                                        std::move(parameters),
-                                       std::move(fix_amount));
+                                       fix_amount);
     }
 
     return kinetic_reactants;

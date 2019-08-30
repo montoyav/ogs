@@ -25,7 +25,7 @@ struct KineticReactant
                     std::string&& chemical_formula_,
                     MeshLib::PropertyVector<double>* amount_,
                     std::vector<double>&& parameters_,
-                    bool&& fix_amount_)
+                    bool fix_amount_)
         : name(std::move(name_)),
           chemical_formula(std::move(chemical_formula_)),
           amount(amount_),
