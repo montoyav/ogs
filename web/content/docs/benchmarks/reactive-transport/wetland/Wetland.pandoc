@@ -100,11 +100,11 @@ Table 2: Initial and boundary conditions
 
 Initially, influent wastewater pollutants spread through the model domain by advective--dispersive transport (Figure 3).
 The aeration increases dissolved oxygen concentration $Do$ in the entire domain.
-However, after XXX seconds, rapidly growing heterotrophic bacteria $X_H$ starts to consume available $Do$ and influent organic carbon ($S_A$, $S_F$).
+However, after 2.5 days (2.16e+5 seconds), rapidly growing heterotrophic bacteria $X_H$ starts to consume available $Do$ and influent organic carbon ($S_A$, $S_F$).
 Initial growth of $X_H$ and the high concentrations of organic carbon sources at the influent region result in an oxygen depletion.
 This triggers the growth of anaerobic fermenting bacteria $X_{FB}$ at the front and pushes $X_H$ downstream were enough $Do$ is available.
 After organic carbon concentration profiles of $S_F$ and $S_A$ stabilized, autotrophic nitrifying bacteria $X_A$ starts to grow by oxidizing available ammonia nitrogen ($S_{NH}$) to oxidized nitrogen $S_{NO}$.
-After XX seconds (20 days) the wetland has reached a quasi steady--state.
+After 20 days (1.7286e+6 seconds) the microbial reaction network in the wetland has reached a quasi steady--state.
 The biochemical reactions are now governing the system behaviour.
 
 Both, OGS-6 and OGS-5 simulations yield the same results.
