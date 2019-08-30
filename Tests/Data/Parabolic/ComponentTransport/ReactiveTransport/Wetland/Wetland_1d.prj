@@ -47,7 +47,7 @@
                         <value>0.0</value>
                     </storage>
                 </porous_medium>
-		<porous_medium id="1">
+                <porous_medium id="1">
                     <permeability>
                         <type>Constant</type>
                         <permeability_tensor_entries>kappa1</permeability_tensor_entries>
@@ -61,7 +61,7 @@
                         <value>0.0</value>
                     </storage>
                 </porous_medium>
-		<porous_medium id="2">
+                <porous_medium id="2">
                     <permeability>
                         <type>Constant</type>
                         <permeability_tensor_entries>kappa0</permeability_tensor_entries>
@@ -98,7 +98,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -113,7 +113,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -128,7 +128,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -143,7 +143,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -158,7 +158,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -173,7 +173,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -188,7 +188,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -203,7 +203,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -218,7 +218,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -233,7 +233,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -248,7 +248,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -271,7 +271,7 @@
                 </property>
             </properties>
         </medium>
-	<medium id="1">
+        <medium id="1">
             <phases>
                 <phase>
                     <type>AqueousLiquid</type>
@@ -284,7 +284,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -299,7 +299,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -314,7 +314,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -329,7 +329,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -344,7 +344,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -359,7 +359,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -374,7 +374,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -389,7 +389,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -404,7 +404,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -419,7 +419,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -434,7 +434,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -457,7 +457,7 @@
                 </property>
             </properties>
         </medium>
-	<medium id="2">
+        <medium id="2">
             <phases>
                 <phase>
                     <type>AqueousLiquid</type>
@@ -470,7 +470,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -485,7 +485,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -500,7 +500,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -515,7 +515,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -530,7 +530,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -545,7 +545,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -560,7 +560,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -575,7 +575,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -590,7 +590,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -605,7 +605,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -620,7 +620,7 @@
                                     <type>Constant</type>
                                     <value>0.0e-9</value>
                                 </property>
-				<property>
+                                <property>
                                     <name>retardation_factor</name>
                                     <type>Constant</type>
                                     <value>1</value>
@@ -1004,13 +1004,13 @@
             </variables>
         </output>
     </time_loop>
-	<chemical_system chemical_solver="Phreeqc">
+        <chemical_system chemical_solver="Phreeqc">
         <database>cwm1.dat</database>
         <solution>
             <temperature>10</temperature>
             <pressure>1</pressure>
             <pe>4</pe>
-	    <means_of_adjusting_charge>pH</means_of_adjusting_charge>
+            <means_of_adjusting_charge>pH</means_of_adjusting_charge>
             <components>
                 <component>Do</component>
                 <component>Sf</component>
@@ -1024,176 +1024,176 @@
                 <component>Xi_m</component>
             </components>
         </solution>
-		<kinetic_reactants>
-		    <kinetic_reactant>
-		        <name>Aeration</name>
-		        <chemical_formula>Do 1</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>AttDetachment_Xi</name>
-		        <chemical_formula>Xi_m -1</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>AttDetachment_Xs</name>
-		        <chemical_formula>Xs_m -1</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Hydrolysis_Xs_m</name>
-		        <chemical_formula>Sf 1 Sin 0  Snh 0.01  Xs_m -1</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Hydrolysis_Xs_im</name>
-		        <chemical_formula>Sf  1  Sin    0  Snh 0.01</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Aerobic_Growth_Xh_on_Sf</name>
-		        <chemical_formula>Do -0.587301587301587  Sf -1.58730158730159  Snh -0.022380952</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Anoxic_Growth_Xh_on_Sf</name>
-		        <chemical_formula>Sf  -1.58730158730159  Sno -0.205350205  Snh -0.02238095</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Aerobic_Growth_Xh_on_Sa</name>
-		        <chemical_formula>Do  -0.587301587301587  Sa -1.58730158730159  Snh -0.07</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Anoxic_Growth_Xh_on_Sa</name>
-		        <chemical_formula>Sa -1.58730158730159  Sno -0.205350205  Snh -0.07</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Lysis_Xh</name>
-		        <chemical_formula>Sf 0.05  Snh 0.0315</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Aerobic_Growth_Xa_on_Snh</name>
-		        <chemical_formula>Do -18.04166667  Sno 4.166666667  Snh -4.236666667</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Lysis_Xa</name>
-		        <chemical_formula>Sf 0.05  Snh 0.0315</chemical_formula> 
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Growth_Xfb</name>
-		        <chemical_formula>Sf -18.86792453  Sa 17.86792453  Snh 0.496037736</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Lysis_Xfb</name>
-		        <chemical_formula>Sf 0.05  Snh 0.0315</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Growth_Xamb</name>
-		        <chemical_formula>Sa -31.25 Snh -0.07</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Lysis_Xamb</name>
-		        <chemical_formula>Sf 0.05   Snh 0.0315</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Growth_Xasrb</name>
-		        <chemical_formula>Sa -20  Sso -9.5  Sulphide 9.5  Snh   -0.07</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Lysis_Xasrb</name>
-		        <chemical_formula>Sf 0.05   Snh 0.0315</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Aerobic_Growth_Xsob</name>
-		        <chemical_formula>Do    -15.66666667  Sso 8.333333333       Sulphide -8.333333333   Snh -0.07</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Anoxic_Growth_Xsob</name>
-		        <chemical_formula>Sno -8.380952381  Sso 8.333333333     Sulphide -8.333333333   Snh -0.07</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Lysis_Xsob</name>
-		        <chemical_formula>Sf 0.05   Snh 0.0315</chemical_formula>
-		        <initial_amount>1.0</initial_amount>
-			<fix_amount>true</fix_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Xh</name>
-		        <chemical_formula>Do 0</chemical_formula>
-		        <initial_amount>1.0e-3</initial_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Xa</name>
-		        <chemical_formula>Do 0</chemical_formula>
-		        <initial_amount>1.0e-3</initial_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Xfb</name>
-		        <chemical_formula>Do 0</chemical_formula>
-		        <initial_amount>1.0e-3</initial_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Xamb</name>
-		        <chemical_formula>Do 0</chemical_formula>
-		        <initial_amount>1.0e-3</initial_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Xasrb</name>
-		        <chemical_formula>Do 0</chemical_formula>
-		        <initial_amount>1.0e-3</initial_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Xsob</name>
-		        <chemical_formula>Do 0</chemical_formula>
-		        <initial_amount>1.0e-3</initial_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Xs_im</name>
-		        <chemical_formula>Do 0</chemical_formula>
-		        <initial_amount>1.0e-4</initial_amount>
-		    </kinetic_reactant>
-		    <kinetic_reactant>
-		        <name>Xi_im</name>
-		        <chemical_formula>Do 0</chemical_formula>
-		        <initial_amount>1.0e-4</initial_amount>
-		    </kinetic_reactant>
-		</kinetic_reactants>
-	<rates>
-	    <rate>
+                <kinetic_reactants>
+                    <kinetic_reactant>
+                        <name>Aeration</name>
+                        <chemical_formula>Do 1</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>AttDetachment_Xi</name>
+                        <chemical_formula>Xi_m -1</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>AttDetachment_Xs</name>
+                        <chemical_formula>Xs_m -1</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Hydrolysis_Xs_m</name>
+                        <chemical_formula>Sf 1 Sin 0  Snh 0.01  Xs_m -1</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Hydrolysis_Xs_im</name>
+                        <chemical_formula>Sf  1  Sin    0  Snh 0.01</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Aerobic_Growth_Xh_on_Sf</name>
+                        <chemical_formula>Do -0.587301587301587  Sf -1.58730158730159  Snh -0.022380952</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Anoxic_Growth_Xh_on_Sf</name>
+                        <chemical_formula>Sf  -1.58730158730159  Sno -0.205350205  Snh -0.02238095</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Aerobic_Growth_Xh_on_Sa</name>
+                        <chemical_formula>Do  -0.587301587301587  Sa -1.58730158730159  Snh -0.07</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Anoxic_Growth_Xh_on_Sa</name>
+                        <chemical_formula>Sa -1.58730158730159  Sno -0.205350205  Snh -0.07</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Lysis_Xh</name>
+                        <chemical_formula>Sf 0.05  Snh 0.0315</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Aerobic_Growth_Xa_on_Snh</name>
+                        <chemical_formula>Do -18.04166667  Sno 4.166666667  Snh -4.236666667</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Lysis_Xa</name>
+                <chemical_formula>Sf 0.05  Snh 0.0315</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Growth_Xfb</name>
+                        <chemical_formula>Sf -18.86792453  Sa 17.86792453  Snh 0.496037736</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Lysis_Xfb</name>
+                        <chemical_formula>Sf 0.05  Snh 0.0315</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Growth_Xamb</name>
+                        <chemical_formula>Sa -31.25 Snh -0.07</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Lysis_Xamb</name>
+                        <chemical_formula>Sf 0.05   Snh 0.0315</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Growth_Xasrb</name>
+                        <chemical_formula>Sa -20  Sso -9.5  Sulphide 9.5  Snh   -0.07</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Lysis_Xasrb</name>
+                        <chemical_formula>Sf 0.05   Snh 0.0315</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Aerobic_Growth_Xsob</name>
+                        <chemical_formula>Do    -15.66666667  Sso 8.333333333       Sulphide -8.333333333   Snh -0.07</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Anoxic_Growth_Xsob</name>
+                        <chemical_formula>Sno -8.380952381  Sso 8.333333333     Sulphide -8.333333333   Snh -0.07</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Lysis_Xsob</name>
+                        <chemical_formula>Sf 0.05   Snh 0.0315</chemical_formula>
+                        <initial_amount>1.0</initial_amount>
+                        <fix_amount>true</fix_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Xh</name>
+                        <chemical_formula>Do 0</chemical_formula>
+                        <initial_amount>1.0e-3</initial_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Xa</name>
+                        <chemical_formula>Do 0</chemical_formula>
+                        <initial_amount>1.0e-3</initial_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Xfb</name>
+                        <chemical_formula>Do 0</chemical_formula>
+                        <initial_amount>1.0e-3</initial_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Xamb</name>
+                        <chemical_formula>Do 0</chemical_formula>
+                        <initial_amount>1.0e-3</initial_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Xasrb</name>
+                        <chemical_formula>Do 0</chemical_formula>
+                        <initial_amount>1.0e-3</initial_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Xsob</name>
+                        <chemical_formula>Do 0</chemical_formula>
+                        <initial_amount>1.0e-3</initial_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Xs_im</name>
+                        <chemical_formula>Do 0</chemical_formula>
+                        <initial_amount>1.0e-4</initial_amount>
+                    </kinetic_reactant>
+                    <kinetic_reactant>
+                        <name>Xi_im</name>
+                        <chemical_formula>Do 0</chemical_formula>
+                        <initial_amount>1.0e-4</initial_amount>
+                    </kinetic_reactant>
+                </kinetic_reactants>
+        <rates>
+            <rate>
                 <kinetic_reactant>Aeration</kinetic_reactant>
                 <expression>
                     <statement>So2 = MOL("Do")</statement>
@@ -1206,7 +1206,7 @@
                     <statement>SAVE dGrowth</statement>
                 </expression>
             </rate>
-			<rate>
+                        <rate>
                 <kinetic_reactant>AttDetachment_Xi</kinetic_reactant>
                 <expression>
                     <statement>Xi_mob = MOL("Xi_m")</statement>
@@ -1221,7 +1221,7 @@
                     <statement>SAVE dGrowth</statement>
                 </expression>
             </rate>
-			<rate>
+                        <rate>
                 <kinetic_reactant>AttDetachment_Xs</kinetic_reactant>
                 <expression>
                     <statement>Xs_mob = MOL("Xs_m")</statement>
@@ -1249,7 +1249,7 @@
                     <statement>SAVE dHydrolysis</statement>
                 </expression>
             </rate>
-			<rate>
+                        <rate>
                 <kinetic_reactant>Hydrolysis_Xs_im</kinetic_reactant>
                 <expression>
                     <statement>Xs_im = KIN("Xs_im")</statement>
@@ -1283,7 +1283,7 @@
                     <statement>SAVE dGrowth</statement>
                 </expression>
             </rate>
-			<rate>
+                        <rate>
                 <kinetic_reactant>Anoxic_Growth_Xh_on_Sf</kinetic_reactant>
                 <expression>
                     <statement>Sf = MOL("Sf")</statement>
@@ -1325,7 +1325,7 @@
                     <statement>SAVE dGrowth</statement>
                 </expression>
             </rate>
-			<rate>
+                        <rate>
                 <kinetic_reactant>Anoxic_Growth_Xh_on_Sa</kinetic_reactant>
                 <expression>
                     <statement>Sf = MOL("Sf")</statement>
@@ -1357,7 +1357,7 @@
                     <statement>SAVE dLysis</statement>
                 </expression>
             </rate>
-			<rate>
+                        <rate>
                 <kinetic_reactant>Aerobic_Growth_Xa_on_Snh</kinetic_reactant>
                 <expression>
                     <statement>So2 = MOL("Do")</statement>
@@ -1383,7 +1383,7 @@
                     <statement>SAVE dLysis</statement>
                 </expression>
             </rate>
-			<rate>
+                        <rate>
                 <kinetic_reactant>Growth_Xfb</kinetic_reactant>
                 <expression>
                     <statement>Sf = MOL("Sf")</statement>
@@ -1403,7 +1403,7 @@
                     <statement>SAVE dGrowth</statement>
                 </expression>
             </rate>
-			<rate>
+                        <rate>
                 <kinetic_reactant>Lysis_Xfb</kinetic_reactant>
                 <expression>
                     <statement>Xfb = KIN("Xfb")</statement>
@@ -1437,13 +1437,13 @@
                 <kinetic_reactant>Lysis_Xamb</kinetic_reactant>
                 <expression>
                     <statement>Xamb = KIN("Xamb")</statement>
-                    <statement>rates = CALC_VALUE("b_amb") * Xamb</statement> 
+                    <statement>rates = CALC_VALUE("b_amb") * Xamb</statement>
                     <statement>dLysis = rates * time</statement>
                     <statement>dLysis = dLysis</statement>
                     <statement>SAVE dLysis</statement>
                 </expression>
             </rate>
-			<rate>
+                        <rate>
                 <kinetic_reactant>Growth_Xasrb</kinetic_reactant>
                 <expression>
                     <statement>Sa = MOL("Sa")</statement>
@@ -1469,13 +1469,13 @@
                 <kinetic_reactant>Lysis_Xasrb</kinetic_reactant>
                 <expression>
                     <statement>Xasrb = KIN("Xasrb")</statement>
-                    <statement>rates = CALC_VALUE("b_asrb") * Xasrb</statement> 
+                    <statement>rates = CALC_VALUE("b_asrb") * Xasrb</statement>
                     <statement>dLysis = rates * time</statement>
                     <statement>dLysis = dLysis</statement>
                     <statement>SAVE dLysis</statement>
                 </expression>
             </rate>
-			<rate>
+                        <rate>
                 <kinetic_reactant>Aerobic_Growth_Xsob</kinetic_reactant>
                 <expression>
                     <statement>So2 = MOL("Do")</statement>
@@ -1513,13 +1513,13 @@
                 <kinetic_reactant>Lysis_Xsob</kinetic_reactant>
                 <expression>
                     <statement>Xsob = KIN("Xsob")</statement>
-                    <statement>rates = CALC_VALUE("b_sob") * Xsob</statement> 
+                    <statement>rates = CALC_VALUE("b_sob") * Xsob</statement>
                     <statement>dLysis = rates * time</statement>
                     <statement>dLysis = dLysis</statement>
                     <statement>SAVE dLysis</statement>
                 </expression>
             </rate>
-			<rate>
+                        <rate>
                 <kinetic_reactant>Xs_im</kinetic_reactant>
                 <expression>
                     <statement>dGrowth = KIN_DELTA("AttDetachment_Xs")</statement>
@@ -1598,7 +1598,7 @@
                     <statement>SAVE dGrowth</statement>
                 </expression>
             </rate>
-		</rates>
+                </rates>
     </chemical_system>
     <parameters>
         <parameter>
@@ -1606,7 +1606,7 @@
             <type>Constant</type>
             <values>1.0e-7</values>
         </parameter>
-	<parameter>
+        <parameter>
             <name>kappa1</name>
             <type>Constant</type>
             <values>1.0e-8</values>
