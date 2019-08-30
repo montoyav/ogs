@@ -23,7 +23,6 @@ The example model system is a treatment wetland.
 A treatment wetland is an engineered ecosystem that mimics natural occuring microbiological processes to treat wastewater.
 Basically, such a system consists of a basin filled with media (e.g. gravel or sand) and is passed through by wastewater.
 Multiple microbial organisms attached on the media surface and metabolize wastewater pollutants, which drives the cyclin of carbon and nutrients.
-:w
 
 
 This scenario is modified from a simulation run from Boog et al. (2019) (run *HMc_RTM_run88*), however, does not include heat transport.
@@ -122,4 +121,3 @@ Please note that due to the long computation time of the simulation, the corresp
 Boog, J., Kalbacher, T., Nivala, J., Forquet, N., van Afferden, M., Müller, R.A., 2019. Modeling the relationship of aeration, oxygen transfer and treatment performance in aerated horizontal flow treatment wetlands. Water Research. 157 , 321 - 334. https://doi.org/10.1016/j.watres.2019.03.062.
 
 Langergraber, G., Rousseau, D.P.L., García, J., Mena, J., 2009. CWM1: A general model to describe biokinetic processes in subsurface flow constructed wetlands. Water Science and Technology, 59 (9), 1687-1697. https://doi.org/10.2166/wst.2009.131.
-
