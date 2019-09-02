@@ -38,8 +38,7 @@ std::unique_ptr<Output> createOutput(
             kinetic_reactant.fix_amount)
             continue;
 
-        accepted_items.push_back(
-            OutputItem(kinetic_reactant.name, kinetic_reactant.item_type));
+        accepted_items.emplace_back(kinetic_reactant.name, kinetic_reactant.item_type);
     }
 
     // Record ids of which phreeqc output items will be dropped.
